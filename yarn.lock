@@ -2519,6 +2519,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@chakra-ui/storybook-addon@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@chakra-ui/storybook-addon@npm:5.1.0"
+  peerDependencies:
+    "@chakra-ui/react": ">=2.0.0"
+    "@storybook/components": ">=7.0.12"
+    "@storybook/manager-api": ">=7.0.12"
+    "@storybook/preview-api": ">=7.0.12"
+    "@storybook/types": ">=7.0.24"
+    react: ">=16.8.x"
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 9a16ac3e64e8b7fabfd5f775809ad36ed15ee62e964da3ea5bd70d06e3d1dc0188fceaedba3516076397d0e64e60302b317d78ff8dc702d3ca02fcd6c042c1ba
+  languageName: node
+  linkType: hard
+
 "@chakra-ui/styled-system@npm:2.9.2":
   version: 2.9.2
   resolution: "@chakra-ui/styled-system@npm:2.9.2"
@@ -4114,6 +4133,16 @@ __metadata:
   version: 0.27.8
   resolution: "@sinclair/typebox@npm:0.27.8"
   checksum: ef6351ae073c45c2ac89494dbb3e1f87cc60a93ce4cde797b782812b6f97da0d620ae81973f104b43c9b7eaa789ad20ba4f6a1359f1cc62f63729a55a7d22d4e
+  languageName: node
+  linkType: hard
+
+"@storybook/addon-a11y@npm:^7.6.4":
+  version: 7.6.4
+  resolution: "@storybook/addon-a11y@npm:7.6.4"
+  dependencies:
+    "@storybook/addon-highlight": "npm:7.6.4"
+    axe-core: "npm:^4.2.0"
+  checksum: a4195ce7847c52669d8201c6414f651c3b7cde13dbb649840d6d87d88cdc421442ba2bd11cc3c55844e9871fa1c3e403135da418ba5241b747f53baff0c548a8
   languageName: node
   linkType: hard
 
@@ -6546,6 +6575,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axe-core@npm:^4.2.0":
+  version: 4.8.2
+  resolution: "axe-core@npm:4.8.2"
+  checksum: ad9e1125ba226bbc73d442996d8b9b35fed9af8bcfa995831e29c3d6b8ddb0d16bc7d18c66c5a685211296ee99fe966ae4d59051ca6fbef2a7ee7408322b9dbe
+  languageName: node
+  linkType: hard
+
 "axobject-query@npm:^3.2.1":
   version: 3.2.1
   resolution: "axobject-query@npm:3.2.1"
@@ -7865,8 +7901,10 @@ __metadata:
   resolution: "designsystem-chakra-ui@workspace:."
   dependencies:
     "@chakra-ui/react": "npm:^2.8.2"
+    "@chakra-ui/storybook-addon": "npm:^5.1.0"
     "@emotion/react": "npm:^11.11.1"
     "@emotion/styled": "npm:^11.11.0"
+    "@storybook/addon-a11y": "npm:^7.6.4"
     "@storybook/addon-essentials": "npm:^7.6.4"
     "@storybook/addon-interactions": "npm:^7.6.4"
     "@storybook/addon-links": "npm:^7.6.4"
