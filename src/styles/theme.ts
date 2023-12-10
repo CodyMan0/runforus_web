@@ -1,5 +1,5 @@
 
-import { baseTheme, extendTheme } from '@chakra-ui/react'
+import { baseTheme, extendTheme,type ThemeConfig} from '@chakra-ui/react'
 import { textStyles, fontSizes } from './typography'
 
 
@@ -22,12 +22,14 @@ const breakpoints = {
   '2xl': '96em',
 }
 
+const config: ThemeConfig = {
+  initialColorMode: 'dark',
+  useSystemColorMode: false
+}
+
 const theme = extendTheme(
   {
-    config: {
-      initialColorMode: 'light',
-      useSystemColorMode: false,
-    },
+    config,
     breakpoints,
 
     styles,
